@@ -1,11 +1,11 @@
-# Vulnerability Management Lab with Tenable: A Practical Guide
+# Vulnerability Management Lab with Tenable
 
-Welcome to the **Vulnerability Management Lab with Tenable**! This repository contains the resources and steps from a hands-on lab that demonstrates the fundamentals of vulnerability management using Tenable’s vulnerability scanning tools. This lab is designed for cybersecurity enthusiasts and professionals looking to deepen their understanding of vulnerability management and how to use it effectively to secure systems.
+Welcome to the **Vulnerability Management Lab with Tenable**! This repository documents the hands-on steps I performed to manage vulnerabilities on a Windows VM using Tenable. It includes VM setup, vulnerability scanning, STIG compliance checks, creating and remediating vulnerabilities, and documenting the results.
 
 ---
 
 ### Lab Architecture and Overview
-This lab is designed to be cloud-based and accessible from any computer. The lab provides actionable skills for your cybersecurity journey, with practical steps to enhance your resume and boost your job prospects. The Tenable Vulnerability Management cloud console was used as the main operating interface and the Tenable Scan Engine as well as the Scan Target were both hosted on Microsoft Azure virtual machines.
+The lab was built on **Microsoft Azure virtual machines**. I used the **Tenable Vulnerability Management cloud console** as the main interface, with the **Tenable Scan Engine** targeting the Azure-hosted VM. This setup allowed me to perform scans, simulate vulnerabilities, remediate issues, and validate compliance with DISA/STIG standards.
 
 <img width="931" alt="image" src="https://github.com/user-attachments/assets/2853aed3-0092-4b4c-be3e-a67cd8dfd9f5" />
 
@@ -78,10 +78,11 @@ This lab is designed to be cloud-based and accessible from any computer. The lab
 
 ---
 
-### Why This Lab?
-This lab not only provides hands-on experience with vulnerability management but also equips you with practical skills that can enhance your cybersecurity resume. By completing the lab, you'll gain familiarity with:
-- Real-world vulnerability identification and remediation.
-- Compliance frameworks such as DISA/STIG.
-- Effective use of Tenable’s tools.
+### Skills Demonstrated
+This lab showcases practical, hands-on skills in vulnerability management, including:
+- Identifying and remediating real-world vulnerabilities on a Windows VM.
+- Implementing and validating compliance with DISA/STIG standards.
+- Configuring and using Tenable Vulnerability Management for scans and reporting.
+- Documenting remediation results and analyzing trends to improve system security.
 
 ---
